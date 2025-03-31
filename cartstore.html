@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DairyVest - Shopping Cart</title>
+  <title>Diary-Lift - Shopping Cart</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     :root {
@@ -722,7 +722,7 @@
   <header class="navbar">
     <div class="container navbar-container">
       <a href="index.html" class="navbar-logo">
-        <i class="fas fa-cow"></i> DairyVest
+        <i class="fas fa-cow"></i> Diary-Lift
       </a>
       <nav class="navbar-links">
         <a href="home_page.html" class="navbar-link">Home</a>
@@ -820,10 +820,10 @@
       <div class="footer-container">
         <div class="footer-column">
           <span class="footer-logo">
-            <i class="fas fa-cow"></i> DairyVest
+            <i class="fas fa-cow"></i> Diary-Lift
           </span>
           <p class="footer-about">
-            DairyVest combines traditional farming with modern technology to create a transparent, profitable, and sustainable investment opportunity.
+            Diary-Lift combines traditional farming with modern technology to create a transparent, profitable, and sustainable investment opportunity.
           </p>
           <div class="footer-socials">
             <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -870,7 +870,7 @@
       </div>
       
       <div class="copyright">
-        <p>&copy; 2023 DairyVest. All rights reserved.</p>
+        <p>&copy; 2023 Diary-Lift. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -983,14 +983,14 @@
       }
 
       loadFromStorage() {
-        const savedCart = localStorage.getItem('dairyvestCart');
+        const savedCart = localStorage.getItem('Diary-LiftCart');
         if (savedCart) {
           this.items = JSON.parse(savedCart);
         }
       }
 
       saveToStorage() {
-        localStorage.setItem('dairyvestCart', JSON.stringify(this.items));
+        localStorage.setItem('Diary-LiftCart', JSON.stringify(this.items));
       }
 
       addItem(productId, quantity = 1) {
